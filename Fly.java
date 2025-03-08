@@ -1,6 +1,6 @@
-public class Floating implements SwimBehaviour{
+public class Fly implements FlyBehaviour{
     @Override
-    public void swim() {
-        System.out.println("I am Floatingg!!");
+    public void fly() {
+        System.out.println("I can Fly");
     }
 }
